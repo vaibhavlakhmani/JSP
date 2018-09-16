@@ -1,1 +1,119 @@
-.hello
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.clr_name{
+	text-decoration: none;
+	text-align: center;
+	position: relative;
+	top: 35px;
+	color: white;
+}
+
+.box{
+	
+	height: 100px;
+	width: 100px;
+	margin: 5px;
+	display: inline-block;
+	background-color: #F44336;
+	border: 0.5px solid black;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+	transition: all 0.1s ease;
+}
+
+.box:hover{
+	transform: scale(1.06);
+}
+
+.game{
+	padding: 60px;
+	background: #424242;
+	text-align:  center;
+	height: 100%;
+	
+}
+
+.header{
+
+	height: 100px;
+	width: 100%;
+    display: block;
+    background: #424242;
+    
+}
+
+
+.welcome{
+	font-size: 28px;
+	text-align: center;
+	padding-top: 30px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	font-family: Arial;
+	color: white;
+}
+
+.features{
+	background: #FF8A65;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#start{
+	border: 2px solid black;
+	border-radius: 2px;
+	cursor: pointer;
+	background: transparent;
+	height: 50px;
+	width: 100px;
+	margin: 20px;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 20px;
+}
+#counter{
+	border: 2px solid black;
+    text-align: center;
+	border-radius: 50%;
+	background: transparent;
+	height: 50px;
+	width: 50px;
+	margin-top: 20px;
+	margin-left: -80px;
+	display: inline-block;
+	font-weight: bold;
+	line-height: 50px;
+	font-size: 28px;
+}
+#score{
+	border: 2px solid black;
+    text-align: center;
+	border-radius: 50%;
+	background: transparent;
+	height: 50px;
+	width: 50px;
+	margin-top: 20px;
+	display: inline-block;
+	font-weight: bold;
+	line-height: 50px;
+	font-size: 28px;
+}
+
+
+#name{
+	margin-bottom: 20px;
+	color: white;
+	border: 2px solid white;
+	height: 50px;
+	width: 150px;
+	font-weight: bold;
+	line-height: 50px;
+	font-size: 20px;
+	align-content: center;
+	margin-left: 590px;
+
+}
