@@ -29,7 +29,7 @@
 }
 
 .game{
-	padding: 60px;
+	padding: 20px;
 	background: #424242;
 	text-align:  center;
 	height: 100%;
@@ -58,7 +58,7 @@
 
 .features{
 	background: #FF8A65;
-	height: 100px;
+	height: 80px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -70,7 +70,8 @@
 	background: transparent;
 	height: 50px;
 	width: 100px;
-	margin: 20px;
+	margin-top: 12px;
+	margin-left: -50px;
 	display: inline-block;
 	font-weight: bold;
 	font-size: 20px;
@@ -82,8 +83,7 @@
 	background: transparent;
 	height: 50px;
 	width: 50px;
-	margin-top: 20px;
-	margin-left: -80px;
+	margin-top: 10px;
 	display: inline-block;
 	font-weight: bold;
 	line-height: 50px;
@@ -96,7 +96,7 @@
 	background: transparent;
 	height: 50px;
 	width: 50px;
-	margin-top: 20px;
+	margin-top: 10px;
 	display: inline-block;
 	font-weight: bold;
 	line-height: 50px;
@@ -105,15 +105,17 @@
 
 
 #name{
+	position: relative;
 	margin-bottom: 20px;
 	color: white;
 	border: 2px solid white;
 	height: 50px;
 	width: 150px;
+	left: 50%;
+	transform: translateX(-50%);
 	font-weight: bold;
 	line-height: 50px;
 	font-size: 20px;
-	align-content: center;
-	margin-left: 590px;
 
+	
 }
