@@ -4,7 +4,6 @@
 	<meta charset="utf-8">
 	
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="script.js"></script>
 	<title>JS game Vaibhav</title>
 </head>
 <body>
@@ -17,9 +16,9 @@
 
 	<div class="main">
 			<div class="features">
-				<button onclick="onTimer()" id="start">START</button>
+				<button onclick="clock()" id="start">START</button>
 				<div id="counter">20</div>
-				<div id="score">1</div>
+				<div id="score">0</div>
 
 		</div>
 
@@ -30,32 +29,34 @@
 		<div class=game>
 
 			<div class="name">
-			<p id="name">RED</p>	
+			<p id="name">Red</p>	
 			</div>
 
-			<div class="box"><a href="#" class="clr_name"> color1</a></div>
+			<button id="box1" class="box" onclick="compare(document.querySelector('#box1').innerHTML)">Red</button>
 
-			<div class="box"><a href="#" class="clr_name"> color2	</div>
+			<button id="box2" class="box" onclick="compare(document.querySelector('#box2').innerHTML)">Light blue</button>
 
-			<div class="box"><a href="#" class="clr_name"> color3	</div>
+			<button id="box3" class="box" onclick="compare(document.querySelector('#box3').innerHTML)">Pink	</button>
 			
 			<br>
 
-			<div class="box"><a href="#" class="clr_name"> color4	</div>
+			<button id="box4" class="box" onclick="compare(document.querySelector('#box4').innerHTML)">Purple</button>
 
-			<div class="box"><a href="#" class="clr_name"> color5	</div>
+			<button id="box5" class="box" onclick="compare(document.querySelector('#box5').innerHTML)">Blue	</button>
 
-			<div class="box"><a href="#" class="clr_name"> color6	</div>
+			<button id="box6" class="box" onclick="compare(document.querySelector('#box6').innerHTML)">Green</button>
 
 			<br>
 
-			<div class="box"><a href="#" class="clr_name"> color7	</div>
+			<button id="box7" class="box" onclick="compare(document.querySelector('#box7').innerHTML)">Yellow</button>
 			
-			<div class="box"><a href="#" class="clr_name"> color8	</div>
+			<button id="box8" class="box" onclick="compare(document.querySelector('#box8').innerHTML)">Orange</button>
 			
-			<div class="box"><a href="#" class="clr_name"> color9	</div>
+			<button id="box9" class="box" onclick="compare(document.querySelector('#box9').innerHTML)">Brown</button>
 			
 		</div>
+		<script src="script.js"></script>
+		
 
 </body>
 </html>

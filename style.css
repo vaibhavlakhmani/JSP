@@ -3,27 +3,49 @@
 	padding: 0px;
 }
 
-.clr_name{
-	text-decoration: none;
-	text-align: center;
-	position: relative;
-	top: 35px;
-	color: white;
-}
 
 .box{
 	
 	height: 100px;
 	width: 100px;
 	margin: 5px;
+	font-weight: bold;
 	display: inline-block;
-	background-color: #F44336;
-	border: 0.5px solid black;
-	border-radius: 5px;
+	border: 0px solid black;
+	border-radius: 3px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 	transition: all 0.1s ease;
 }
 
+#box1{
+	background-color: #F44336;
+}
+
+#box2{
+	background-color: #03A9F4;
+}
+#box3{
+	background-color: #E91E63;
+}
+#box4{
+	background-color: #9C27B0;
+}
+
+#box5{
+	background-color: #3F51B5;
+}
+#box6{
+	background-color: #43A047;
+}
+#box7{
+	background-color: #FFEB3B;
+}
+#box8{
+	background-color: #FF5722;
+}
+#box9{
+	background-color: #5D4037;
+}
 .box:hover{
 	transform: scale(1.06);
 }
@@ -57,7 +79,7 @@
 }
 
 .features{
-	background: #FF8A65;
+	background: #03A9F4;
 	height: 80px;
 	display: flex;
 	flex-direction: row;
@@ -75,9 +97,15 @@
 	display: inline-block;
 	font-weight: bold;
 	font-size: 20px;
+	transition: all 0.2s ease;
+}
+
+#start:hover{
+	transform: scale(1.2);
+	background-color: rgba(50,50,50,0.6);
 }
 #counter{
-	border: 2px solid black;
+	border: 1px solid black;
     text-align: center;
 	border-radius: 50%;
 	background: transparent;
@@ -90,7 +118,7 @@
 	font-size: 28px;
 }
 #score{
-	border: 2px solid black;
+	border: 1px solid black;
     text-align: center;
 	border-radius: 50%;
 	background: transparent;
@@ -102,6 +130,7 @@
 	line-height: 50px;
 	font-size: 28px;
 }
+
 
 
 #name{
