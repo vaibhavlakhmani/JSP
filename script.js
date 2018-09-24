@@ -26,7 +26,7 @@ function randomGen() {
 	var random8 = colors[Math.floor(Math.random() * colors.length)];
 	var random9 = colors[Math.floor(Math.random() * colors.length)];
 
-		document.querySelector("#name").innerHTML= name;
+		
 
 	var list = [random1,random2,random3,random4,random5,random6,random7,random8,random9];
 		var strict = Math.floor(Math.random() * list.length);
@@ -83,7 +83,10 @@ function clock()
 
 
 
-    var Timer = setInterval(function()
+    var Timer = setInterval(start, 1000);
+
+
+    function start()
     {
         timeleft--;
         document.querySelector("#counter").innerHTML = timeleft;
@@ -105,5 +108,5 @@ function clock()
             score=0;
             timeleft = 20;
         }
-    }, 1000);
+    }
 }
